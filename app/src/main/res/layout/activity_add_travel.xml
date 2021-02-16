@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/orange_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".ui.addTravelActivity.AddTravelActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/assistant_semibold"
+            android:gravity="center"
+            android:text="@string/enterTravelDetails"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_user_ic"
+            android:drawableLeft="@drawable/custom_user_ic"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/ETPersonName"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_phone_ic"
+            android:drawableLeft="@drawable/custom_phone_ic"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/et_phone"
+            android:inputType="phone"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_mail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_mail_ic"
+            android:drawableLeft="@drawable/custom_mail_ic"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/mailAddress"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_location"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="none"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/et_destination1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_location"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/destinationAddresses1"
+            android:inputType="none"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/et_destination2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_location"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/destinationAddresses2"
+            android:inputType="none"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/et_destination3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_location"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/destinationAddresses3"
+            android:inputType="none"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:focusable="false"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/assistant_semibold"
+                android:layout_margin="5dp"
+                android:text="@string/numberOfTravelers"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/num_of_travelers"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/et_travelDate"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic__date"
+                android:drawableLeft="@drawable/ic__date"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="@string/travelDate"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="18sp"
+                android:layout_marginRight="6dp"
+                android:layout_marginEnd="6dp"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/et_returnDate"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic__date"
+                android:drawableLeft="@drawable/ic__date"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="@string/returnDate"
+                android:inputType="date"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="18sp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/send"
+            android:shadowColor="@color/darker_gray"
+            app:cornerRadius="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

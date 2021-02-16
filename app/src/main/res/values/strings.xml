@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">טופס הזמנת נסיעה</string>
+    <string name="orderTravel">הזמן נסיעה</string>
+    <string name="openScreenPhoto">openScreenPhoto</string>
+    <string name="welcome">ברוכים הבאים</string>
+    <string name="createTravel">בחר והזמן את פרטי נסיעתך</string>
+    <string name="travelInYourWay">נסיעה בדרך שלך !</string>
+    <string name="continueWelcome">ל אפליקציית הזמנת הנסיעות</string>
+    <string name="ETPersonName">שם מלא</string>
+    <string name="et_phone">פלאפון</string>
+    <string name="enterTravelDetails">הכנס את פרטי הנסיעה</string>
+    <string name="mailAddress">כתובת מייל</string>
+    <string name="address">כתובת איסוף וחזרה</string>
+    <string name="destinationAddresses1">כתובת יעד</string>
+    <string name="destinationAddresses2">כתובת יעד נוספת (אופציונלי)</string>
+    <string name="destinationAddresses3">כתובת יעד נוספת (אופציונלי)</string>
+    <string name="numberOfTravelers">מספר נוסעים :</string>
+    <string name="travelDate">תאריך יציאה</string>
+    <string name="returnDate">תאריך חזרה</string>
+    <string name="send">שלח</string>
+    <string name="invalid_name">שדה חובה</string>
+    <string name="invalid_phone">אנא הכנס מספר חוקי</string>
+    <string name="invalid_email">אנא הכנס כתובת מייל חוקית</string>
+    <string name="invalid_address">אנא בחר כתובת יציאה וחזרה</string>
+    <string name="invalid_destination">אנא בחר כתובת יעד</string>
+    <string name="orderComplete">הזמנתך נקלטה במערכת</string>
+
+</resources>
